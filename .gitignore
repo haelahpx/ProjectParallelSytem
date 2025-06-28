@@ -1,0 +1,33 @@
+# === Python (FastAPI) ===
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+*.env
+
+# === VSCode (optional) ===
+.vscode/
+
+# === Logs ===
+*.log
+
+# === macOS / Windows ===
+.DS_Store
+Thumbs.db
+
+# === Node (React + Tailwind) ===
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+frontend/.next/
+frontend/.env.local
+frontend/.env
+
+# === Editor backups ===
+*.swp
+*.swo
+*~
+
