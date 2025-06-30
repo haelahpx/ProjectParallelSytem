@@ -1,11 +1,12 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-        "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-        extend: {},
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    // tambahkan ini:
+    future: {
+        removeDeprecatedGapUtilities: true,
+        purgeLayersByDefault: true,
     },
-    plugins: [],
+    // tambahkan ini juga untuk nonaktifkan lightningcss
+    experimental: {
+        optimizeUniversalDefaults: true,
+    }
 }
