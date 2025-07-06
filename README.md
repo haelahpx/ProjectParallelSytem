@@ -17,8 +17,9 @@ Containerized and easily deployable with **Docker Compose**.
 
 ## Screenshots
 
-Home Page(![alt text](<Screenshot 2025-07-07 024752.png>))
-Anime Detail(![alt text](image-1.png))
+Home Page ![alt text](<Screenshot 2025-07-07 024752.png>)
+
+Anime Detail ![alt text](image-1.png)
 
 ---
 
