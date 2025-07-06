@@ -114,7 +114,7 @@ async def search_anime(q: str = Query(..., min_length=1)):
     """
     Searches for anime by title using the Jikan API.
     """
-    url = f"[https://api.jikan.moe/v4/anime?q=](https://api.jikan.moe/v4/anime?q=){q}"
+    url = f"https://api.jikan.moe/v4/anime?q={q}"
 
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
